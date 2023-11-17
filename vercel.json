@@ -7,14 +7,6 @@
     {
       "source": "/test/:match/:url*/",
       "destination": "https://:match/:url*/"
-    },
-    {
-      "source": "/httptest/:match/:url*",
-      "destination": "http://:match/:url*"
-    },
-    {
-      "source": "/httptest/:match/:url*/",
-      "destination": "http://:match/:url*/"
     }
   ],
   "regions": [
