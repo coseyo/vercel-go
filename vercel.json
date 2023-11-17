@@ -1,7 +1,15 @@
-{  
-  "rewrites": [  
-    { "source": "/test", "destination": "/api/test" },  
-    { "source": "/about", "destination": "/pages/about.html" }  
-  ],  
-  "regions": ["sin1"]  
-}  
+{
+  "rewrites": [
+    {
+      "source": "/test/:match/:url*",
+      "destination": "https://:match/:url*"
+    },
+    {
+      "source": "/test/:match/:url*/",
+      "destination": "https://:match/:url*/"
+    }
+  ],
+  "regions": [
+    "sin1"
+  ]
+}
